@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="top-header">
+    <header class="top-header top-header--transparent">
       <div class="header__top">
         <div class="header__column">
           <i class="fas fa-plane"></i>
@@ -45,8 +45,12 @@
     </header>
     <main class="profile">
       <header class="profile__header">
-        <img src="images/avatar.jpg" alt="" />
-        <h3 class="profile__header-title">Nicolas</h3>
+        <div class="profile__header-container">
+          <img src="images/avatar.jpg" alt="" />
+          <h3 class="profile__header-title">Nicolas</h3>
+        </div>
+      </header>
+      <div class="profile__container">
         <input type="text" placeholder="dns05012@gmail.com" />
         <div class="profile__actions">
           <div class="profile__action">
@@ -62,7 +66,7 @@
             <span class="profile__action-title">Edit Profile</span>
           </div>
         </div>
-      </header>
+      </div>
     </main>
   </body>
 </html>
